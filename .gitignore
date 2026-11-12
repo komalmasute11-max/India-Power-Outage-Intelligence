@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Firebase private credentials
+serviceAccountKey.json
+*service-account*.json
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model cache
+*.h5
+*.keras
